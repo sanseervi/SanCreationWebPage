@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>san creation</title>
+  <link rel="stylesheet" href="version1.css">
+</head>
+<body>
+  <div id="container">
+    <div id="header">
+      <h1>S A N  creation</h1>
+      <p>Abstract Art</p>
+    </div>
+    
+    <div id="content">
+      <div id="nav">
+        <ul>
+          <li><a href="home.html"><em>Home</em></a></li>
+          <li><a href="about.html"><em>About</em></a></li>
+          <li><a href="gallery.html"><em>Gallery</em></a></li>
+          <li><a href="copyright.html"><em>Copyright</em></a></li>
+          <li><a href=""><em>Contact us</em></a></li>
+        </ul>
+      </div>
+      
+      <div id="main">
+        <br><br><br><br><br><br>
+        <img src="ContactHeaderTitle.png" width="68%">
+        <h1 style="font-size: 50px">Contact us<hr></h1>
+        <div id="after_submit"></div>
+            <form id="contact_form" action="#" method="POST" enctype="multipart/form-data">
+              <div class="row">
+                <label class="required" for="name">Your name:</label><br />
+                <input id="name" class="input" name="name" type="text" value="" size="30" /><br />
+                <span id="name_validation" class="error_message"></span>
+              </div>
+              <div class="row">
+                <label class="required" for="email">Your email:</label><br />
+                <input id="email" class="input" name="email" type="text" value="" size="30" /><br />
+                <span id="email_validation" class="error_message"></span>
+              </div>
+              <div class="row">
+                <label class="required" for="message">Your message:</label><br />
+                <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+                <span id="message_validation" class="error_message"></span>
+              </div>
+                
+                <input id="submit_button" type="submit" value="Send email" />
+            </form>
+        <br><br><br><br><br><br><br></p>
+      </div>
+    </div>
+
+    <div id="footer">
+      <p>© 2018 Abstract Art Gallery. All rights reserved.</p>
+    </div>
+  </div>
+</body>
+</html>
